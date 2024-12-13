@@ -1,0 +1,114 @@
+/* Reset CSS (exemplo usando Normalize.css) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(279, 74%, 44%);
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+form {
+    max-width: 500px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+  
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+input{
+    width: 480px;
+    padding: 10px;
+    margin: 0 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #7000d1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+.continer{
+    border: none;
+    width: 540px;
+    margin: 0 auto;
+    
+}
+#resultado {
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4d85ff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.botao {
+    background-color: #9d00ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #7900c5;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+    
+    nav {
+        max-width: 100%;
+    }
+    
+    .botao {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
